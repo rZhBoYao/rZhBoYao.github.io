@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on BoYao&#39;s Blog</title>
+    <link>http://rZhBoYao.github.io/tags/</link>
+    <description>Recent content in Tags on BoYao&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Mar 2020 13:29:30 +0800</lastBuildDate>
+    
+	<atom:link href="http://rZhBoYao.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>blog</title>
+      <link>http://rZhBoYao.github.io/tags/blog/</link>
+      <pubDate>Sat, 07 Mar 2020 13:29:30 +0800</pubDate>
+      
+      <guid>http://rZhBoYao.github.io/tags/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://rZhBoYao.github.io/tags/hugo/</link>
+      <pubDate>Sat, 07 Mar 2020 13:29:30 +0800</pubDate>
+      
+      <guid>http://rZhBoYao.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Note</title>
+      <link>http://rZhBoYao.github.io/tags/note/</link>
+      <pubDate>Sat, 07 Mar 2020 13:29:30 +0800</pubDate>
+      
+      <guid>http://rZhBoYao.github.io/tags/note/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

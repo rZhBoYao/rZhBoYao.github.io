@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>blog on BoYao&#39;s Blog</title>
+    <link>http://rZhBoYao.github.io/tags/blog/</link>
+    <description>Recent content in blog on BoYao&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 07 Mar 2020 13:29:30 +0800</lastBuildDate>
+    
+	<atom:link href="http://rZhBoYao.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Set up a blog using Hugo</title>
+      <link>http://rZhBoYao.github.io/post/set-up-a-blog-using-hugo/</link>
+      <pubDate>Sat, 07 Mar 2020 13:29:30 +0800</pubDate>
+      
+      <guid>http://rZhBoYao.github.io/post/set-up-a-blog-using-hugo/</guid>
+      <description>&lt;p&gt;本文紀錄如何用Hugo建立blog，並部署到GitHub Pages。&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

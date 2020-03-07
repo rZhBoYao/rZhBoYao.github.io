@@ -1,0 +1,66 @@
+<?xml-stylesheet type="text/xsl" href="http://rZhBoYao.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://rZhBoYao.github.io/about/</loc>
+    <lastmod>2017-08-28T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://rZhBoYao.github.io/tags/blog/</loc>
+    <lastmod>2020-03-07T13:29:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://rZhBoYao.github.io/tags/hugo/</loc>
+    <lastmod>2020-03-07T13:29:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://rZhBoYao.github.io/tags/note/</loc>
+    <lastmod>2020-03-07T13:29:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://rZhBoYao.github.io/post/</loc>
+    <lastmod>2020-03-07T13:29:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://rZhBoYao.github.io/post/set-up-a-blog-using-hugo/</loc>
+    <lastmod>2020-03-07T13:29:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://rZhBoYao.github.io/tags/</loc>
+    <lastmod>2020-03-07T13:29:30+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://rZhBoYao.github.io/</loc>
+    <lastmod>2017-08-28T21:41:52+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://rZhBoYao.github.io/categories/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>

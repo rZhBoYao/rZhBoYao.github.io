@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BoYao&#39;s Blog</title>
+    <link>http://rZhBoYao.github.io/</link>
+    <description>Recent content on BoYao&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 20 Aug 2017 21:38:52 +0800</lastBuildDate>
+    
+        <atom:link href="http://rZhBoYao.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://rZhBoYao.github.io/about/</link>
+      <pubDate>Sun, 20 Aug 2017 21:38:52 +0800</pubDate>
+      
+      <guid>http://rZhBoYao.github.io/about/</guid>
+      
+        <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Set up a blog using Hugo</title>
+      <link>http://rZhBoYao.github.io/post/set-up-a-blog-using-hugo/</link>
+      <pubDate>Sat, 07 Mar 2020 13:29:30 +0800</pubDate>
+      
+      <guid>http://rZhBoYao.github.io/post/set-up-a-blog-using-hugo/</guid>
+      
+        <description>&lt;p&gt;本文紀錄如何用Hugo建立blog，並部署到GitHub Pages。&lt;/p&gt;
+&lt;h2 id=&#34;安裝hugo&#34;&gt;安裝Hugo&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;brew install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;建立site&#34;&gt;建立site&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;hugo new site &amp;lt;site-name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;選定theme&#34;&gt;選定theme&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;cd &amp;lt;site-name&amp;gt;
+git init
+git submodule add &amp;lt;theme-git-repo-url&amp;gt; themes/&amp;lt;theme-name&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;例如：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd &amp;lt;site-name&amp;gt;
+git init
+git submodule add https://github.com/xianmin/hugo-theme-jane.git themes/jane
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;拷貝主題的預設config和範例文章&#34;&gt;拷貝主題的預設config和範例文章&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;cp themes/jane/exampleSite/config.toml ./
+cp -r themes/jane/exampleSite/content ./
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;建立文章&#34;&gt;建立文章&lt;/h2&gt;
+&lt;p&gt;文章在&lt;code&gt;content/post&lt;/code&gt;裡面。&lt;/p&gt;
+&lt;p&gt;新增文章輸入：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;hugo new post/my-first-post.md
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;在本地觀看&#34;&gt;在本地觀看&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;hugo server -D&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;D flag解釋：&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;-D, --buildDrafts            include content marked as draft&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;build-static-pages&#34;&gt;Build static pages&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;hugo -D&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;depoly&#34;&gt;Depoly&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;在GitHub建立&lt;strong&gt;兩個&lt;/strong&gt;repositories。一個名為&lt;code&gt;&amp;lt;site-name&amp;gt;&lt;/code&gt;另一個為&lt;code&gt;&amp;lt;USERNAME&amp;gt;.github.io&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;把生成的site（public）加入submodule&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;git submodule add -b master git@github.com:&amp;lt;USERNAME&amp;gt;/&amp;lt;USERNAME&amp;gt;.github.io.git public&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;參考&#34;&gt;參考&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&#34;https://dev.to/zaracooper/create-your-developer-portfolio-using-hugo-and-github-pages-35en&#34;&gt;https://dev.to/zaracooper/create-your-developer-portfolio-using-hugo-and-github-pages-35en&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://gohugo.io/getting-started/quick-start/&#34;&gt;https://gohugo.io/getting-started/quick-start/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/xianmin/hugo-theme-jane&#34;&gt;https://github.com/xianmin/hugo-theme-jane&lt;/a&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>
